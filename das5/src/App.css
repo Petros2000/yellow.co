@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    
+}
+.Nav{
+    display: flex;
+   
+}
+
+
+.Nav_div{
+    margin-top: 2%;
+    margin-left: 35% ;
+    
+}
+
+.list{
+    display: flex;
+    margin: 0% auto;
+    height: 10px;
+   
+}
+
+.list_false{
+    
+    height: 0px;
+    width: 0;
+   
+}
+
+
+
+.burger1{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 1px;
+    transition: 0.5s;
+}
+
+.burger2{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 0px 1px;
+    
+}
+
+
+.burger3{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 1px;
+    transition: 0.5s;
+}
+
+
+.burger1_false{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(60deg);
+    transition: 0.5s;
+}
+
+
+.burger2_false{
+    display: none;
+}
+
+.burger3_false{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(120deg);
+    transition: 0.5s;
+}
+
+.menu_burger{
+    display: none;
+    cursor: pointer;
+    transform: 1s;
+    margin:0% auto;
+}
+
+a{
+    text-decoration: none;
+}
+.li1{
+    list-style: none;
+    float: left;
+    margin: 17px;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.li1_false{
+    font-size: 0px;
+    transition: 1s;
+}
+
+
+
+.Aside1{
+    margin-top: 100px;
+}
+.aside1_p{
+    font-size: 47px;
+    font-family: freight-big-pro;
+}
+.aside2_p{
+    font-family: Karla;
+    font-size: 20px;
+}
+.aside_btn{
+    font-family: Karla;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    background: white;
+}
+.aside_btn:hover{
+    background: black;
+    color: white;
+}
+.video_1{
+    margin-top: 100px;
+    width: 1000px;
+    height: 600px;
+}
+.Card{
+    display: flex;
+    justify-content: center;
+}
+.Card div{
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    margin: 40px;
+    border-radius: 50%;
+} 
+
+.Aside h3{
+
+    font-weight: 500px;
+    line-height: 1.2em;
+    font-size: 45px;
+    text-transform: lowercase;
+    text-decoration: none;
+    letter-spacing: 1.85px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.as_p1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.as_img1{
+    margin-top: 80px;
+}
+.as_img2{
+    margin-top: 10px;
+}
+.as_p2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+.as_p3{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 75px;
+}
+.as_p4{
+    font-size: 16px;
+    text-align: center;
+}
+.as_p5{
+    margin-top: 35px;
+    text-align: center;
+}
+.data1{
+    display: flex;
+    justify-content: space-between;
+}
+.data1 div{
+    width: 300px;
+    height: 250px;
+}
+.data1 div p{
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 200px;
+    margin-left: 20%;
+}
+.data1 div button{
+    border: 2px solid black;
+    width: 125px;
+    height: 25px;
+    margin-left: 25%;
+    background: wgite;
+}
+.data1 div button:hover{
+    background: black;
+    color: white;
+}
+.hr{
+    margin-top: 20px;
+    background: rgb(172, 172, 172);
+    width: 85%;
+    height: 5px;
+    margin: auto;
+}
+
+
+.slider_contener{
+    width: 100%;
+    display: flex;
+    transition: all ease 1s;
+    height: auto;
+  }
+  .slide_img_cont{
+    margin:0% auto;
+    list-style: none;
+    padding: 0px 0px;
+  }
+  .slid_list{
+    padding: 0px 20px;
+  }
+  .img{
+   height: 600px;
+   text-align: center;
+  }
+  .slider{
+    position: relative; 
+    /* background:grey; */
+    width: 100%;
+    overflow: hidden;
+  }
+  .btn_next{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    font-size: 40px;
+    color: rgb(12, 11, 11);
+    padding: 15px;
+    border-radius: 50%;
+    border: solid 1px black;
+    cursor: pointer;
+  }
+  .btn_prev{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 40px;
+    color: rgb(12, 11, 11);
+    padding: 15px;
+    border-radius: 50%;
+    border: solid 1px black;
+    cursor: pointer;
+  }
+  .btn_prev:hover{
+    background-color: rgba(28, 31, 32, 0.5);
+  }
+  .btn_next:hover{
+    background-color: rgba(151, 208, 227, 0.5);
+  }
+  .text{
+    text-align: center;
+  }
+  .slid_list{
+    margin: auto;
+  }
+  .index{
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      margin-left: 15px;
+      display: flex;
+      cursor: pointer;
+  }
+
+  .indexDiv{
+      display: flex;
+      justify-content: center;
+      margin:0% auto;
+  }
+  .footer{
+      margin-top: 80px;
+  }
+.footerdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.footerdiv div li{
+    list-style: none;
+    margin: 25px;
+}
+.footerdiv div li:hover{
+    color: rgb(172, 160, 95);
+}
+.icon{
+    margin-left: 20px;
+}
+
+
+
+
+
+@media (max-width: 767px){
+    .menu_burger{
+        display: block;
+    }
+    .Nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list{
+        flex-direction: column;
+    }
+    
+    
+    h1{
+        text-align: center;
+    }
+    .Nav_div{
+    
+       margin: 0% auto;
+       flex-direction: column;
+    }
+
+.Aside1{
+    display: flex;
+    flex-direction:column;
+}
+.aside1_p{
+    max-width: 450px;
+    margin-left: 35% ;
+}
+.aside2_p{
+    max-width: 650px;
+    margin-left: 25%;
+}
+.aside_btn{
+    margin-left: 40%;
+}
+.video_1{
+    max-width: 650px;
+    height: 650px;
+    margin-left: 15%;
+}
+.data1 div p{
+    font-size: 20px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+}
+.Card div{
+    width: 500px;
+    height: 500px;
+    background: yellow;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 40px;
+
+}
+.as_img1{
+    width: 550px;
+    margin: 0 0 0 205px;
+}
+.as_img2{
+    width: 230px;
+    margin: 0 0 0 205px;
+}
+.as_p2{
+    max-width: 400px;
+    text-align: center;
+    margin-left: 243px;
+}
+.data1{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 30%;
+}
+.slider_contener{
+    width: 80%;
+    display: flex;
+    transition: all ease 1s;
+    height: auto;
+  }
+  .slider{
+    position: relative; 
+    /* background:grey; */
+    width: 80%;
+    overflow: hidden;
+    margin-left: 10%;
+  }
+  .footerdiv{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin-left: 50%;
+}
+}
